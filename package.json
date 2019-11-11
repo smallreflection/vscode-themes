@@ -1,0 +1,21 @@
+{
+    "name": "100rabbits dark",
+    "displayName": "100rabbits dark",
+    "description": "Dark themes based on work by the hundredrabbits duo",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "100rabbits dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/100rabbits dark-color-theme.json"
+            }
+        ]
+    }
+}
