@@ -1,6 +1,6 @@
 {
-    "name": "100rabbits dark",
-    "displayName": "100rabbits dark",
+    "name": "100Rabbits-Dark",
+    "displayName": "100Rabbits Rark",
     "description": "Dark themes based on work by the hundredrabbits duo",
     "version": "0.0.1",
     "engines": {
@@ -9,12 +9,28 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "VSCode",
+        "minimalist",
+        "themes",
+        "schemes"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "100rabbits dark",
+                "label": "100Rabbits Dark Orca",
                 "uiTheme": "vs-dark",
-                "path": "./themes/100rabbits dark-color-theme.json"
+                "path": "./themes/100rabbits-dark-orca.json"
+            },
+            {
+                "label": "100Rabbits Dark Apollo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/100rabbits-dark-apollo.json"
+            },
+            {
+                "label": "100Rabbits Dark Roguelight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/100rabbits-dark-roguelight.json"
             }
         ]
     }
